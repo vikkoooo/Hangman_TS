@@ -13,6 +13,7 @@ body {
 	margin-top: 3rem;
 }
 
+.hangman-container,
 .info-container {
 	align-items: center;
 	display: flex;
