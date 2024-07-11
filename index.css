@@ -1,0 +1,44 @@
+body {
+	background-color: rgb(237, 237, 237);
+	display: flex;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	margin: 0;
+}
+
+.game-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.info-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#wrong-letters {
+	color: rgb(173, 173, 173);
+	font-size: small;
+	margin-top: 1rem;
+}
+
+#word-display {
+	color: rgb(33, 33, 33);
+	font-size: xx-large;
+	letter-spacing: 1rem;
+	padding: 1rem;
+}
+
+#letter-input {
+	font-size: x-large;
+	text-align: center;
+}
+
+#info-text {
+	color: rgb(173, 173, 173);
+	font-size: small;
+	margin-top: 1rem;
+}
